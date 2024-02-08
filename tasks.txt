@@ -1,5 +1,5 @@
 Рус:
-1. Создать базовый canvas -
+1. Создать базовый canvas +
 2. Создать карту для таблиц -
 3. Создать таблицы -
 4. Настроить логику совмещения таблиц -
@@ -9,7 +9,7 @@
 8. Создать меню -
 
 Eng:
-1. Create basic canvas -
+1. Create basic canvas +
 2. Create a card for tables - 
  3. Create tables - 
  4. Configure the logic of table combination - 
