@@ -1,5 +1,3 @@
-import { Logger } from "sass";
-
 export class GameLoop {
     constructor(_display, _update) {
         this.display = _display;

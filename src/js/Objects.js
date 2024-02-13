@@ -40,7 +40,6 @@ export class PhysicalObject extends GameObject {
         }
         
         this.gravity = G * this.weight;
-        console.log(this.gravity);
         this.leftExtremePoint = new Vector(this.position.x - this.size.x / 2, this.position.y - this.size.y / 2);
         this.rightExtremePoint = new Vector(this.position.x + this.size.x / 2, this.position.y + this.size.y / 2);
 
@@ -116,7 +115,7 @@ export class PhysicalObject extends GameObject {
         return false;
     }
 
-    baseCoclusion(context, color = "#f00") {
+    rectConclusion(context, color = "#f00") {
         context.fillStyle = color;
         context.fillRect(this.position.x, this.position.y, this.size.x, this.size.y);
     }

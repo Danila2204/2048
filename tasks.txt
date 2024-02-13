@@ -1,7 +1,7 @@
 Рус:
 1. Создать базовый canvas +
-2. Создать карту для таблиц -
-3. Создать таблицы -
+2. Создать таблицы -
+3. Создать карту для таблиц -
 4. Настроить логику совмещения таблиц -
 5. Настроить случайное появление таблиц -
 6. Создать условия выигрыша и проигрыша -
@@ -10,10 +10,10 @@
 
 Eng:
 1. Create basic canvas +
-2. Create a card for tables - 
- 3. Create tables - 
- 4. Configure the logic of table combination - 
- 5. Configure the accidental appearance of tables - 
- 6. Create the conditions for winning and losing - 
- 7. Create an account - 
- 8. Create a menu - -
+2. Create tables - 
+3. Create a card for tables - 
+4. Configure the logic of table combination - 
+5. Configure the accidental appearance of tables - 
+6. Create the conditions for winning and losing - 
+7. Create an account - 
+8. Create a menu - -
