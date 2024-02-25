@@ -1,4 +1,3 @@
-import { Vector } from "./vector.js";
 import { PhysicalObject } from "./Objects.js";
 
 export class Table extends PhysicalObject {
@@ -30,7 +29,7 @@ export class Table extends PhysicalObject {
     }
 
     set number(value) {
-        if (typeof(value) !== "number") throw new Error("number должен быть типа Number!");
+        if (!(typeof(value) !== "number" || typeof(value) !== "string")) throw new Error("number должен быть типа Number!");
 
         this.Number = value;
     }
@@ -59,10 +58,15 @@ export class Table extends PhysicalObject {
         return this.Color;
     }
 
+    edit(color, number) {
+        this.color = color;
+        this.number = number;
+    }
+
     draw(context, fontSize = 24) {
         this.rectConclusion(context, this.color);
         context.fillStyle = this.textColor;
         context.font = `normal ${fontSize}px arial`;
-        context.fillText(`${this.Number}`, this.position.x + (this.size.x / 2) - context.measureText(this.number).width / 2, this.position.y + this.size.y / 2 + fontSize / 3, 100);
+        context.fillText(`${this.number}`, this.position.x + (this.size.x / 2) - context.measureText(this.number).width / 2, this.position.y + this.size.y / 2 + fontSize / 3, 100);
     }
 }

@@ -42,11 +42,11 @@ export class Vector {
         return new Vector(this.x - vector.x, this.y - vector.y);
     }
 
-    multiplicationToScalar(sclar) {
-        if (typeof(sclar) !== "number") throw new Error("sclar должен быть типа number!");
+    multiplicationToScalar(scalar) {
+        if (typeof(scalar) !== "number") throw new Error("scalar должен быть типа number!");
 
-        this.x *= sclar;
-        this.y *= sclar;
+        this.x *= scalar;
+        this.y *= scalar;
     }
 
     multiplicationScalarVector(vector) {
